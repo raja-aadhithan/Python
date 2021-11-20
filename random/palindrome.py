@@ -28,13 +28,13 @@ def swap(x):
             c=-1
             break
             
-    #print ('original value',m,'resultant palindome',w,'count', c)
+    print ('original value',m,'resultant palindome',w,'count', c)
     arr_no.append(m)
     arr_pl.append(w)
     arr_ct.append(c)
 
-for l in range(100,1000):
-    swap(l)
 
-plt.plot(arr_no, arr_ct, label = "line 1")
+for l in range(10,100):
+    swap(l)
+plt.plot(arr_no, arr_ct, label = "graph")
 plt.show()
