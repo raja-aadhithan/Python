@@ -1,3 +1,5 @@
+#This program finds the number of times a number has to be flipped and added to become a palindrome; the result also shows a graph.
+
 import random
 import matplotlib.pyplot as plt
 arr_no =[]
