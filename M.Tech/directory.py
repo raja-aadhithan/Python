@@ -70,7 +70,7 @@ def state_machine(chosen):
         sample = input('Enter Contact name: ')
         for i in my_objects:
             if my_objects[i].name == sample:
-                val = i;
+                val = i
         del my_objects[val]
         chosen = print_menu()
         call(chosen)
