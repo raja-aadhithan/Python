@@ -12,7 +12,7 @@ print("\nafter appliying reverse function")
 print(string[::-1])
 print("\n")
 
-name="aadhi"
+name=input("Enter Name \t")
 slot1 =["adhi", "aadhi","pendant"]
 slot2 =["pen","hat","laptop"] 
 if name in slot1: print (name," found in slot1")
